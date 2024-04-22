@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: #24cfea; */
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: #c41ed7; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+}
+#nav1{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 20px;
+    
+}
+#nav1 h1{
+    font-size: 40px;
+}
+#nav1 img{
+    height: 50px;
+}
+#nav-part2{
+    /* background-color: #27f59f; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding-top: 20px;
+    padding-right: 30px;
+    margin-right: 70px;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+#home i{
+    font-size: 25px;
+}
+#help{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+#help i{
+    font-size: 25px;
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+#menu i{
+    font-size: 25px;
+}
+#store{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+}
+#store i{
+    font-size: 25px;
+}
+#content{
+    height: 500px;
+    background-color: #000;
+    color: mediumspringgreen;
+    text-align: center;
+    line-height: 60px;
+    padding: 70px;
+}
+#content h1{
+    font-size: 60px;
+}
+#content p{
+    font-size: 20px;
+}
+#image1{
+    margin-top: 40px;
+}
+#image1 img{
+    height: 200px;
+}
+#content2{
+    margin-top: 30px;
+}
+#head{
+    margin-left: 100px;
+}
+#content2 h1{
+    font-size: 40px;
+}
+#para{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#para p{
+    font-size: 20px;
+}
+#content3{
+    margin-top: 30px;
+}
+#head2{
+    margin-left: 100px;
+}
+#content3 h1{
+    font-size: 40px;
+}
+#para2{
+    margin-left: 100px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#para2 p{
+    font-size: 20px;
+}
+.tips-section {
+    background-color: #fff;
+    padding: 80px 0;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.tips-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.tips {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.tip {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tip h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#box{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#tip2{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip2 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#tip3{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip3 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#tip4{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip4 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#box2{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#tip5{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip5 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#tip6{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip6 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#tip7{
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#tip7 h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#content4{
+    margin-top: 30px;
+}
+#head3{
+    margin-left: 100px;
+}
+#content4 h1{
+    font-size: 40px;
+}
+#para3{
+    margin-left: 100px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#para3 p{
+    font-size: 20px;
+}
+#btn{
+    text-align: center;
+    margin-top: 20px;
+}
+#btn button{
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: yellow;
+}
+#fx1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+#fx1 h1{
+    font-size: 25px;
+}
+#fx1 img{
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 10px; */
+    margin-top: 30px;
+    border: 1px solid black;
+    /* background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-blue-splash-water-flower-cosmetic-psd-layered-master-map-background-material-image_149650.jpg); */
+}
+#fx2{
+    margin-top: 20px;
+}
+#fx2a{
+    margin-top: 20px;
+    line-height: 30px;
+}
+#fx3{
+    margin-top: 20px;
+}
+#fx3a{
+    margin-top: 20px;
+    line-height: 30px;
+}
+#fx4{
+    margin-top: 20px;
+}
+#fx4a{
+    margin-top: 20px;
+    line-height: 30px;
+}
+#fx5{
+    margin-top: 2px;
+    margin-right: 20px;
+    
+}
+#fx5a{
+    margin-top: 20px;
+    line-height: 20px;
+}
+#z1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+#z1 i{
+    font-size: 30px;
+}
+#z2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 30px;
+}
+#z2 i{
+    font-size: 30px;
+}
+#z3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 30px;
+}
+#z3 i{
+    font-size: 30px;
+}
+#thank{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    background-color: black;
+}
+#thank h1{
+    border: 2px solid black;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7px;
+}
+#login i{
+    font-size: 25px;
+}
+#image2{
+    position: absolute;
+    top:610px;
+    left: 1200px;
+}
+#image2 img{
+    height: 250px;
+}
+#image3{
+    position: absolute;
+    top:910px;
+    left: 1100px;
+}
+#image3 img{
+    height: 250px;
+}
+#btnx{
+    text-align: center;
+    margin-top: 10px;
+}
+#btnx button{
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 20px;
+    color:aqua
+}
+#contact{
+    padding-left: 50px;
+    margin-top: 30px;
+    line-height: 40px;
+    /* background-color: #58f4f4; */
+}
+#contact h2{
+    font-size: 40px;
+}
+#contact p{
+    font-size: 20px;
+}
+#contact form{
+    font-size: 20px;
+}
+#btnz{
+    
+    margin-top: 20px;
+}
+#btnz button{
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    background-color: black;
+    color: aqua;
+    border-radius: 20px;
+}
+#name{
+    height: 30px;
+    width: 300px;
+}
+#email{
+    height: 30px;
+    width: 300px;
+}
+*{
+    scroll-behavior: smooth;
+}
